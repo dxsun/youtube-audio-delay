@@ -1,0 +1,19 @@
+.dark {
+  font-size: 1em;
+  background: #111;
+  color: #ddd;
+  border: #ddd;
+  font-family: monospace;
+}
+pre, input {
+  font-size: 1em;
+}
+body {
+  width: 200px
+}
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type=number] {
+  width: 4ch
+}
